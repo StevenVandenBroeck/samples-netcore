@@ -1,0 +1,24 @@
+﻿@model Samples.ViewModels.Car
+
+@{
+    ViewData["Title"] = "Log a car";
+}
+<h2>@ViewData["Title"].</h2>
+
+<p>This demonstrates the use of the <a href="https://github.com/serilog">Serilog</a> library for logging.</p>
+
+<form asp-controller="Home" asp-action="Index">
+    <div>
+        Brand: <input asp-for=@Model.Brand type="text" />
+    </div>
+    <div>
+        Model: <input asp-for=@Model.Model type="text" />
+    </div>
+    <div>
+        Color: <input asp-for=@Model.Color type="text" />
+    </div>
+    <div>
+        <button>Log</button>
+    </div>
+
+</form>
