@@ -1,6 +1,6 @@
-# Serilog extensions library
+# .NET Core Samples Repository
 
-Extensions for the Serilog logging framework.
+Repository with .NET Core samples, demo's and how-to's.
 
 ## Table of Contents
 
@@ -10,16 +10,4 @@ Extensions for the Serilog logging framework.
 - [Installation](#installation)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Installation
-
-To add the library to a project, you add the package to the project.json :
-
-``` json 
-"dependencies": {
-    "Digipolis.Serilog":  "1.0.0"
- }
-``` 
-
-In Visual Studio you can also use the NuGet Package Manager to do this.
 
